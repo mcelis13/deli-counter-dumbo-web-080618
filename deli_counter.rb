@@ -9,7 +9,7 @@ end
 
 num = 0;
 def take_a_number(array, name)
-  putsarray.push("Welcome, #{name}. You are #{num} in line.");
+  puts array.push("Welcome, #{name}. You are #{num} in line.");
 end
 
 def now_serving()
