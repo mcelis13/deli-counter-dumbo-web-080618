@@ -8,7 +8,7 @@ def line(array)
     return
   else
     counter = 0
-    until counter < array.length
+    until counter > array.length
       name = array[counter]
       string += "#{counter} #{name}"
     end
