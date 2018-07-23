@@ -10,7 +10,7 @@ def line(array)
     counter = 0
     until counter < array.length
       name = array[counter]
-      string += "#{counter += 1} #{name}"
+      string += "#{counter} #{name}"
     end
   end
 
