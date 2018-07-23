@@ -7,8 +7,9 @@ def line(array)
   end
 end
 
+num = 0;
 def take_a_number(array, name)
-  return array.push(name)
+  return array.push("Welcome, #{name}. You are number name)
 end
 
 def now_serving()
