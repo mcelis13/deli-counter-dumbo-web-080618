@@ -8,7 +8,7 @@ def line(array)
     return
   else
     counter = 0
-    when_to_stop = (array.size - 1) 
+    when_to_stop = array.size - 1 
     while counter < when_to_stop -
       name = array[counter]
       string += "#{counter += 1}. #{name} "
