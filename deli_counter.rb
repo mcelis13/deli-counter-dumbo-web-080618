@@ -12,11 +12,11 @@ def line(array)
       if counter < array.size
         name = array[counter]
         string += "#{counter += 1}. #{name} "
-        counter += 1
       end
+      counter += 1
     end
   end
-
+  
   puts string
 end
 
