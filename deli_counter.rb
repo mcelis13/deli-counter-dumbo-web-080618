@@ -1,3 +1,4 @@
+var katz_deli_line = [];
 def line(array)
   string = 'The line is currently: '
 
@@ -8,7 +9,8 @@ def line(array)
 end
 
 num = 0;
-def take_a_number()
+def take_a_number(
+  )
   puts array.push("Welcome, #{name}. You are #{num} in line.");
 end
 
