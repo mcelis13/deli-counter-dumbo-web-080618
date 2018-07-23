@@ -12,8 +12,10 @@ def take_a_number(array, name)
   array.push(name)
   if array.size === 0
     puts "The line is currently empty."
-  end
+  else
   puts "Welcome, #{name}. You are number #{array.size} in line."
+  end
+  
 end
 
 def now_serving()
