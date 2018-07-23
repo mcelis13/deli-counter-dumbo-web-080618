@@ -12,7 +12,7 @@ def line(array)
       name = array[counter]
       string += "#{counter += 1}. #{name} "
       counter += 1
-      break if counter = array.size -1
+      break if counter == (array.size - 1)
     end
   end
 
