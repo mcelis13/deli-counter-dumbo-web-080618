@@ -9,10 +9,11 @@ def line(array)
   else
     counter = 0
     loop do
-      name = array[counter]
-      string += "#{counter += 1}. #{name} "
-      counter += 1
-      break if counter == (array.size - 1)
+      if counter < array.size
+        name = array[counter]
+        string += "#{counter += 1}. #{name} "
+        counter += 1
+      end
     end
   end
 
