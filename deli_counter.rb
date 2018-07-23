@@ -10,7 +10,7 @@ end
 
 def take_a_number(array, name)
   array.push(name)
-  array.each {|index| puts "Welcome, #{name}. You are number #{array.size} in line."}
+  puts "Welcome, #{name}. You are number #{array.size} in line."
 end
 
 def now_serving()
