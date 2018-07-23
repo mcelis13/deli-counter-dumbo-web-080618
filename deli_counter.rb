@@ -1,6 +1,6 @@
 katz_deli = [];
 
-def line()
+def line(array)
   string = 'The line is currently: '
 
   if array.size == 0
