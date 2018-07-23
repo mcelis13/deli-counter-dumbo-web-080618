@@ -9,7 +9,7 @@ def line(array)
   else
     counter = 0
    when_to_stop = array.length -1
-    while counter < array.size
+    while counter < when_to_stop
       name = array[counter]
       string += "#{counter += 1}. #{name} "
     end
