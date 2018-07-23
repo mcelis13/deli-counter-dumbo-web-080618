@@ -9,8 +9,7 @@ def line(array)
 end
 
 num = 0;
-def take_a_number(
-  )
+def take_a_number(array, name)
   puts array.push("Welcome, #{name}. You are #{num} in line.");
 end
 
