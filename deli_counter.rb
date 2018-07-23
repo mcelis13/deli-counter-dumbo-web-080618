@@ -10,7 +10,7 @@ end
 
 def take_a_number(array, name)
   array.push(name)
-  
+
   if array.size === 0
     puts "The line is currently empty."
   else
@@ -19,5 +19,5 @@ def take_a_number(array, name)
 
 end
 
-def now_serving()
+def now_serving(array)
 end
