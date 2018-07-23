@@ -9,7 +9,7 @@ def line(array)
 end
 
 def take_a_number(array, name)
-  katz_deli.push(name)
+  array.push(name)
   array.each {|index| puts "Welcome, #{index}. You are number #{array.size} in line."}
 end
 
