@@ -12,6 +12,7 @@ num = 0;
 def take_a_number(array, name)
   katz_deli.push(name)
   array.each {puts "Welcome, #{index}. You are #{array.index(index) + 1} in line."}
+  return katz_deli
 end
 
 def now_serving()
