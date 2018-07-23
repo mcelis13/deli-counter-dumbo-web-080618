@@ -17,5 +17,5 @@ def line(array)
   puts string
 end
 
-def take_a_number()
+def take_a_number(array, name)
 end
