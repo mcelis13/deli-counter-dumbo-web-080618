@@ -11,6 +11,7 @@ def line(array)
     while counter < array.size
       name = array[counter]
       string += "#{counter += 1}. #{name} "
+      counter += 1
     end
   end
 
