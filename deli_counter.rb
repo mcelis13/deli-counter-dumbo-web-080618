@@ -8,8 +8,10 @@ def line(array)
     return
   else
     counter = 0
-    name = array[counter]
-    string += "#{counter += 1}. #{name} "
+    while counter < array.size
+      name = array[counter]
+      string += "#{counter += 1}. #{name} "
+    end
   end
 
   puts string
