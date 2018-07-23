@@ -1,4 +1,4 @@
-var katz_deli_line = [];
+katz_deli = [];
 def line(array)
   string = 'The line is currently: '
 
