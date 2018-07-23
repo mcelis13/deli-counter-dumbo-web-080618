@@ -5,7 +5,9 @@ def line(array)
   if array.size == 0
     puts 'The line is currently empty.'
   else
-    
+    counter = 0
+    until counter < array.length -1
+    end
   end
 end
 
