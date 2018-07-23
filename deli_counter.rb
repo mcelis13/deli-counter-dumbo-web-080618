@@ -12,6 +12,7 @@ def line(array)
       string += "#{counter += 1} #{name}"
     end
   end
+  
   puts string
 end
 
