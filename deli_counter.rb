@@ -7,7 +7,7 @@ def line(array)
     puts 'The line is currently empty.'
   else
     counter = 0
-    until counter < array.length -1
+    until counter < array.length
       name = array[counter]
       string += "#{counter += 1} #{name}"
     end
