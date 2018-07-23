@@ -15,7 +15,7 @@ def line(array)
     end
   end
 
-  puts string
+  puts string += "#{array.size}. #{array[when_to_stop]}"
 end
 
 def take_a_number(array, name)
