@@ -1,4 +1,5 @@
 katz_deli = [];
+
 def line(array)
   string = 'The line is currently: '
 
@@ -7,6 +8,7 @@ def line(array)
   else
     counter = 0
     until counter < array.length -1
+
     end
   end
 end
